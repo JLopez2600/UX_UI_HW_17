@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.navbar-container{
+    display: inline-block;
+    width: 100%;
+    height: 10%;
+    background: none;
+ }
+ .logo-container{
+     display:inline-block;
+     width: 20%;
+     line-height: 80px;
+     text-align: center;
+     vertical-align: middle;
+ }
+ .logo-container span{
+     font-size: 40px;
+     color: white;
+ }
+
+ .menu-container{
+    display: inline-block;
+    width: 75%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ .menu-container ul li{
+     display: inline;
+     font-size: 20px;
+     font-family: sans-serif;
+     margin-left: 50px;
+     float: right;
+     font-weight: 900;
+     color: white;
+ }
+
+ .menu-container li:hover{
+    cursor: pointer;
+  }
+
+.background-img-container{
+    background-image: url("https://www.protocol.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMzE4MjY1Ny9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTYyMDEwOTY4Mn0.kxJVUGG3aE8o1YL5K0nuOe_hV8kiky3DJaxaYS6LjRQ/image.jpg?width=980");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section .content p{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 2;
+    font-family: serif;
+    color: white;
+    font-size: 20px;
+}
+
+.content-container .button-container{
+   text-align: center;
+}
+
+section .content div button{
+    background: orange;
+    border-radius: 50px;
+    width: 40%;
+    height: 70px;
+    border: none;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+footer{
+    background: #4c6edf;
+    display: inline-block;
+    width: 100%;
+    height: 10%;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+footer ul li{
+    display: inline;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 20px;
+}
